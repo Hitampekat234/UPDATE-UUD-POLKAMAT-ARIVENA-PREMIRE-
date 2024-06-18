@@ -1,0 +1,204 @@
+html {
+    overflow: scroll;
+    display: block;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.judul {
+    padding: 20px;
+    margin: auto;
+    width: 50%;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: pink;
+    font-size: 32ft;
+}
+
+.gambar {
+    width: 10%;
+    height: 10%;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.ringan {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.ringan2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: #16FF00;
+}
+
+.sedang {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.sedang2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: yellow;
+}
+
+.berat {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.berat2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.siaga {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.siaga2 {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+}
+
+table {
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+table,th,td {
+    border: 1px solid #000000;
+}
+
+th,td {
+    padding: 8px;
+    text-align: center;
+    
+}
+
+th {
+    background-color: #000000;
+}
+
+div {
+    font-size: large;
+}
+
+label {
+    font-size: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #56ff5c;
+    color: rgb(0, 0, 0);
+    border: none;
+    width: 20%;
+    height: 5%;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: large;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5);
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+input[type="text"] {
+    padding: 5px;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+#history {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+}
+
+#form-group {
+    margin-right: 0px;
+}
+
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.credits {
+    font-size: 14px;
+    color: #777;
+}
