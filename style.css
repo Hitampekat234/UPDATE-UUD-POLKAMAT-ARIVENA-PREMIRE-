@@ -26,7 +26,7 @@ body {
     width: 50%;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: dark grey;
+    background-color: orange;
     font-size: 32ft;
 }
 
@@ -47,7 +47,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: grey;
+    background-color: yellow;
 }
 
 .ringan2 {
@@ -65,7 +65,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: dark brown;
+    background-color: orange;
 }
 
 .sedang2 {
@@ -74,7 +74,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: camel;
+    background-color: yellow;
 }
 
 .berat {
@@ -83,7 +83,7 @@ h2 {
     padding: 10px;
     border: 1px solid #000000;
     margin-top: 20px;
-    background-color: light grey;
+    background-color: orange
 }
 
 .berat2 {
@@ -92,7 +92,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: cream;
+    background-color: yellow;
 }
 
 .siaga {
@@ -101,7 +101,7 @@ h2 {
     padding: 10px;
     border: 1px solid #ccc;
     margin-top: 20px;
-    background-color: pink;
+    background-color: orange;
 }
 
 .siaga2 {
