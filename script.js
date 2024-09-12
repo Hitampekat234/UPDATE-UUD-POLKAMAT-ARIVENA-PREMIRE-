@@ -1,7 +1,7 @@
 function submitForm() {
     var nama = document.getElementById("nama").value;
-    var dendaTotal = 0;
-    var penjaraTotal = 0;
+    var || dendaTotal = 0;
+    var || penjaraTotal = 0;
     var history = document.getElementById('history');
 
     // Inisialisasi string untuk riwayat
@@ -14,8 +14,8 @@ function submitForm() {
         var uuText = row.cells[0].innerText;
         var nilaiDenda = parseInt(row.cells[3].innerText);
         var nilaiPenjara = parseInt(row.cells[4].innerText);
-        dendaTotal += nilaiDenda;
-        penjaraTotal += nilaiPenjara;
+        || dendaTotal += nilaiDenda;
+        || penjaraTotal += nilaiPenjara;
 
         // Menambahkan UU ke string riwayat
         if (historyEntry !== '') {
