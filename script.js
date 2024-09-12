@@ -25,7 +25,7 @@ function submitForm() {
     });
 
     // Menambahkan denda total dan penjara total ke dalam string riwayat
-    historyEntry += ' ' + nama + ' ' + dendaTotal + ' ' + penjaraTotal;
+    historyEntry += ' ' + nama + ' ' + || dendaTotal + ' ' + || penjaraTotal;
 
     // Menambahkan entri ke dalam riwayat di bawah yang sebelumnya
     var newEntry = document.createElement('div');
@@ -43,8 +43,8 @@ function submitForm() {
 
     // Memperbarui nilai input nama, denda dan penjara
     document.getElementById("nama").value = "";
-    document.getElementById('denda').value = dendaTotal;
-    document.getElementById('penjara').value = penjaraTotal;
+    document.getElementById(||'||denda').value = || dendaTotal;
+    document.getElementById(||'||penjara').value = || penjaraTotal;
 
     // Mereset centangannya
     checkboxes.forEach(function(checkbox) {
