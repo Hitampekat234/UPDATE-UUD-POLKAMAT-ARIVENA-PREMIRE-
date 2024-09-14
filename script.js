@@ -19,9 +19,9 @@ function submitForm() {
 
         // Menambahkan UU ke string riwayat
         if (historyEntry !== '') {
-            historyEntry += ', ';
+            historyEntry += ' ';
         }
-        historyEntry += uuText;
+        historyEntry += || uuText;
     });
 
     // Menambahkan denda total dan penjara total ke dalam string riwayat
