@@ -1,204 +1,112 @@
-html {
-    overflow: scroll;
-    display: block;
-}
-
+```css
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f1f1f1;
-    text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4; /* Warna latar belakang abu-abu muda */
 }
 
-.container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+h1.judul {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Warna teks hitam */
 }
 
-.judul {
-    padding: 20px;
-    margin: auto;
-    width: 50%;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: orange;
-    font-size: 32ft;
+h2.ringan {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #007bff; /* Warna teks biru */
 }
 
-.gambar {
-    width: 10%;
-    height: 10%;
+h2.sedang {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #28a745; /* Warna teks hijau */
 }
 
-h2 {
-    margin-top: 0;
-    font-size: 24px;
-    padding: 20px;
+h5.judul {
+  text-align: center;
+  margin-bottom: 10px;
+  color: #dc3545; /* Warna teks merah */
 }
 
-.ringan {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: yellow;
+.form-group {
+  margin-bottom: 15px;
 }
 
-.ringan2 {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: #16FF00;
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333; /* Warna teks hitam */
 }
 
-.sedang {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: orange;
-}
-
-.sedang2 {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: yellow;
-}
-
-.berat {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #000000;
-    margin-top: 20px;
-    background-color: orange
-}
-
-.berat2 {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: yellow;
-}
-
-.siaga {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: orange;
-}
-
-.siaga2 {
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-    background-color: yellow;
-    color: white;
-}
-
-table {
-    margin: auto;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    text-align: left;
-}
-
-table,th,td {
-    border: 1px solid #000000;
-}
-
-th,td {
-    padding: 8px;
-    text-align: center;
-    
-}
-
-th {
-    background-color: #000000;
-}
-
-div {
-    font-size: large;
-}
-
-label {
-    font-size: 20px;
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
 }
 
 button {
-    padding: 10px 20px;
-    background-color: #56ff5c;
-    color: rgb(0, 0, 0);
-    border: none;
-    width: 20%;
-    height: 5%;
-    cursor: pointer;
-    border-radius: 5px;
-    margin: center;
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-size: large;
+  background-color: #007bff; /* Warna tombol biru */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #ff0000;
-}
-
-input[type="checkbox"] {
-    transform: scale(1.5);
-    margin-right: 10px;
-    margin-left: 10px;
-}
-
-input[type="text"] {
-    padding: 5px;
-    width: auto;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-bottom: 5px;
-    box-sizing: border-box;
-    text-align: center;
+  background-color: #0069d9; /* Warna tombol biru gelap saat dihover */
 }
 
 #history {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    margin-top: 20px;
-}
-
-#form-group {
-    margin-right: 0px;
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff; /* Warna latar belakang putih */
 }
 
 footer {
-    background-color: #f8f9fa;
-    padding: 20px;
-    text-align: center;
-    margin-top: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.8em;
+  color: #666; /* Warna teks abu-abu */
 }
 
-.credits {
-    font-size: 14px;
-    color: #777;
+.credits a {
+  color: #007bff; /* Warna teks biru */
+  text-decoration: none;
 }
+
+.credits a:hover {
+  text-decoration: underline;
+}
+
+.sedangTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.sedangTable th,
+.sedangTable td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.sedangTable th {
+  background-color: #f0f0f0; /* Warna latar belakang abu-abu muda */
+}
+
+.sedang2 {
+  background-color: #e9ecef; /* Warna latar belakang abu-abu lebih terang */
+}
+
+.CEKLIS {
+  margin-left: 10px;
+}
+```
