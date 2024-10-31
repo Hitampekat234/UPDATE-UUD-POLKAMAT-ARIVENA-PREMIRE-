@@ -19,13 +19,13 @@ function submitForm() {
 
         // Menambahkan UU ke string riwayat
         if (historyEntry !== '') {
-            historyEntry += ', ';
+            historyEntry += '. ';
         }
         historyEntry += uuText;
     });
 
     // Menambahkan denda total dan penjara total ke dalam string riwayat
-    historyEntry += ' ' + nama + ' ' + dendaTotal + ' ' + penjaraTotal;
+    historyEntry += ' ' + nama + ' ' + dendaTotal + ' ' + , penjaraTotal;
 
     // Menambahkan entri ke dalam riwayat di bawah yang sebelumnya
     var newEntry = document.createElement('div');
